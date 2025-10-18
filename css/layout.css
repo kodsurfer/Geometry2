@@ -46,3 +46,55 @@
     top: -280px;
     left: 758px;
   }
+  .section-3 {
+    position: relative;
+  }
+  .section-3 > div {
+    display: flex;
+  }
+  .history {
+    padding: 90px 90px 0 90px;
+  }
+  .section-3 .big-text-info {
+    font-size: 160px;
+    text-align: right;
+    line-height: 95%;
+  }
+  .history img {
+    margin: 7px 12px 0 26px;
+  }
+  .history div h2 {
+    text-decoration: underline;
+  }
+  .history-paragraph {
+    margin-left: 4px;
+    font-size: 20px;
+    line-height: 134.5%;
+  }
+  h2 + .history-paragraph {
+    margin-top: 100px;
+  }
+  .history-paragraph b {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .construction {
+    padding: 52px 50px;
+  }
+  .construction img {
+    transform: rotate(180deg);
+  }
+  .mood .big-text-info{
+    text-align: left;
+  }
+  .mood div {
+    margin-left: 20px;
+  }
+  .mood {
+    position: absolute;
+    top: 742px;
+    left: 794px;
+  }
+  .big-text-info + .history-paragraph {
+    margin: 46px 0 0 0;
+  }
