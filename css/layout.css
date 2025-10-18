@@ -30,4 +30,19 @@
   .section-1 div:nth-of-type(2) {
     display: flex;
   }
-  
+  .section-2 {
+    position: relative;
+  }
+  .section-2 .author {
+    margin: 346px 0 0 1097px;
+  }
+  .section-2 h1 {
+    font-size: 216px;
+    font-weight: 700;
+    margin: 9px 0 0 50px;
+  }
+  .section-2 img {
+    position: absolute;
+    top: -280px;
+    left: 758px;
+  }
