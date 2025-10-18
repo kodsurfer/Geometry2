@@ -1,1 +1,33 @@
-body { background: red; }
+* {
+    box-sizing: border-box;
+  }
+  body {
+    width: 1440px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Geometria';
+    font-weight: 500;
+    position: relative;
+  }
+  .author {
+    font-weight: 500;
+    font-size: 10px;
+  }
+  .header50 {
+    font-size: 50px;
+  }
+  .section-1 {
+    display: flex;
+    padding: 72px 62px;
+    gap: 8px;
+  }
+  .section-1 img {
+    width: 92px;
+  }
+  .section-1 .author {
+    margin-top: 4px;
+  }
+  .section-1 div:nth-of-type(2) {
+    display: flex;
+  }
+  
